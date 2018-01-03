@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393ED0011FFCB71700DD01E9 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393ED0001FFCB71700DD01E9 /* SwipingController.swift */; };
+		393ED0031FFCBC4D00DD01E9 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393ED0021FFCBC4D00DD01E9 /* PageCell.swift */; };
+		393ED0051FFCC35600DD01E9 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393ED0041FFCC35600DD01E9 /* Page.swift */; };
+		393ED0071FFCD7E300DD01E9 /* SwipingController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393ED0061FFCD7E300DD01E9 /* SwipingController_Extension.swift */; };
+		393ED0091FFCDA3500DD01E9 /* SwipingController-collectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393ED0081FFCDA3500DD01E9 /* SwipingController-collectionView.swift */; };
+		393ED00C1FFCDB7600DD01E9 /* UIColor-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393ED00B1FFCDB7600DD01E9 /* UIColor-extension.swift */; };
 		39EEED8B1FFB6DA30097E9CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EEED8A1FFB6DA30097E9CF /* AppDelegate.swift */; };
-		39EEED8D1FFB6DA30097E9CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EEED8C1FFB6DA30097E9CF /* ViewController.swift */; };
-		39EEED901FFB6DA30097E9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39EEED8E1FFB6DA30097E9CF /* Main.storyboard */; };
 		39EEED921FFB6DA30097E9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39EEED911FFB6DA30097E9CF /* Assets.xcassets */; };
 		39EEED951FFB6DA30097E9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39EEED931FFB6DA30097E9CF /* LaunchScreen.storyboard */; };
 		39EEEDA01FFB6DA30097E9CF /* AutoLayoutSwift4ProgrammaticallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EEED9F1FFB6DA30097E9CF /* AutoLayoutSwift4ProgrammaticallyTests.swift */; };
@@ -34,10 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		393ED0001FFCB71700DD01E9 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		393ED0021FFCBC4D00DD01E9 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		393ED0041FFCC35600DD01E9 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		393ED0061FFCD7E300DD01E9 /* SwipingController_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController_Extension.swift; sourceTree = "<group>"; };
+		393ED0081FFCDA3500DD01E9 /* SwipingController-collectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController-collectionView.swift"; sourceTree = "<group>"; };
+		393ED00B1FFCDB7600DD01E9 /* UIColor-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-extension.swift"; sourceTree = "<group>"; };
 		39EEED871FFB6DA30097E9CF /* AutoLayoutSwift4Programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutSwift4Programmatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EEED8A1FFB6DA30097E9CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39EEED8C1FFB6DA30097E9CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39EEED8F1FFB6DA30097E9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39EEED911FFB6DA30097E9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39EEED941FFB6DA30097E9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39EEED961FFB6DA30097E9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		393ED00A1FFCDAF800DD01E9 /* SwipingController */ = {
+			isa = PBXGroup;
+			children = (
+				393ED0021FFCBC4D00DD01E9 /* PageCell.swift */,
+				393ED0061FFCD7E300DD01E9 /* SwipingController_Extension.swift */,
+				393ED0081FFCDA3500DD01E9 /* SwipingController-collectionView.swift */,
+				393ED0001FFCB71700DD01E9 /* SwipingController.swift */,
+			);
+			path = SwipingController;
+			sourceTree = "<group>";
+		};
+		393ED00D1FFCDCFF00DD01E9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				393ED0041FFCC35600DD01E9 /* Page.swift */,
+				393ED00B1FFCDB7600DD01E9 /* UIColor-extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		39EEED7E1FFB6DA30097E9CF = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				39EEED8A1FFB6DA30097E9CF /* AppDelegate.swift */,
-				39EEED8C1FFB6DA30097E9CF /* ViewController.swift */,
-				39EEED8E1FFB6DA30097E9CF /* Main.storyboard */,
+				393ED00A1FFCDAF800DD01E9 /* SwipingController */,
+				393ED00D1FFCDCFF00DD01E9 /* Helper */,
 				39EEED911FFB6DA30097E9CF /* Assets.xcassets */,
 				39EEED931FFB6DA30097E9CF /* LaunchScreen.storyboard */,
 				39EEED961FFB6DA30097E9CF /* Info.plist */,
@@ -234,7 +262,6 @@
 			files = (
 				39EEED951FFB6DA30097E9CF /* LaunchScreen.storyboard in Resources */,
 				39EEED921FFB6DA30097E9CF /* Assets.xcassets in Resources */,
-				39EEED901FFB6DA30097E9CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39EEED8D1FFB6DA30097E9CF /* ViewController.swift in Sources */,
+				393ED0071FFCD7E300DD01E9 /* SwipingController_Extension.swift in Sources */,
+				393ED00C1FFCDB7600DD01E9 /* UIColor-extension.swift in Sources */,
 				39EEED8B1FFB6DA30097E9CF /* AppDelegate.swift in Sources */,
+				393ED0091FFCDA3500DD01E9 /* SwipingController-collectionView.swift in Sources */,
+				393ED0031FFCBC4D00DD01E9 /* PageCell.swift in Sources */,
+				393ED0011FFCB71700DD01E9 /* SwipingController.swift in Sources */,
+				393ED0051FFCC35600DD01E9 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		39EEED8E1FFB6DA30097E9CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39EEED8F1FFB6DA30097E9CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		39EEED931FFB6DA30097E9CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
